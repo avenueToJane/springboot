@@ -37,8 +37,6 @@ public class UserServiceImpl implements UserService {
 		User user = new User();
 		user.setId(1001);
 		user.setName("张三");
-		user.setAge(20);
-		user.setAddress("上海徐汇");
 		return user;
 	}
 
@@ -53,8 +51,7 @@ public class UserServiceImpl implements UserService {
 		User user = new User();
 		user.setId(1008);
 		user.setName("刘德华");
-		user.setAge(60);
-		user.setAddress("中国香港");
+		
 		redisService.set(user.getId() + "", user);
 		return (User) redisService.get(key);
 	}
@@ -62,5 +59,13 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public void send(User user) {
 		sender.send(user.getName());
+	}
+
+	@Override
+	public User selectUser(User user) {
+		
+		return userMapper.selectUser(user);
+		
+		 
 	}
 }

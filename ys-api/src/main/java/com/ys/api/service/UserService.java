@@ -15,4 +15,6 @@ public interface UserService {
 	User getUserForRedis(String key);
 
 	void send(User user);//发送消息
+	
+	User selectUser(User user);//查询用户
 }

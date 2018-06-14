@@ -16,5 +16,7 @@ public interface UserMapper {
 
 	// 使用xml的方式
 	public List<User> getUsers();
+	
+	public User selectUser(User user);//查询用户
 
 }

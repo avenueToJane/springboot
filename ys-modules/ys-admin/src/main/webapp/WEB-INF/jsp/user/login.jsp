@@ -30,8 +30,9 @@
 					<input id="account" type="text" class="form-control uname" placeholder="用户名" />
 					<input id="password" type="password" class="form-control pword m-b"
 						placeholder="密码" /> <a href="">忘记密码了？</a>
-					<button class="btn btn-success btn-block" onclick="login()">登录</button>
+					
 				</form>	
+				<button class="btn btn-success btn-block" onclick="login()">登录</button><!-- 按钮放到表单外边 -->
 			</div>
 			
 			<div class="col-sm-8"></div>

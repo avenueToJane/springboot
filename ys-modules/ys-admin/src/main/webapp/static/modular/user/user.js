@@ -1,5 +1,6 @@
 login = function () {
 	var data = {
+			
 			account:$("#account").val(),
 			password:$("#password").val()
 	};  
@@ -9,14 +10,14 @@ login = function () {
 	dataType设置你收到服务器数据的格式。*/
 	    $.ajax({
 	        url: "/login",
-	        data: JSON.stringify(data),//必要,
+	        data: JSON.stringify({account:"admin",password:"admin"}),//必要,
 	        type: "POST",
 	        dataType:"json",
 	        contentType : 'application/json',
 	        success: function(data){
 	        //前端调用成功后，可以处理后端传回的json格式数据。  
 	        	if(data.success){	        
-	        		window.location.href="/register";
+	        		window.location.href="/index";
 	        	}else{
 	        		alert("登陆失败")
 	        	}            

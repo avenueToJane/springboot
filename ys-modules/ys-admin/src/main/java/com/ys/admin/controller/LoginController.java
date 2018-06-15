@@ -40,6 +40,13 @@ public class LoginController {
 		 logger.info("跳转登陆页面");
 	     return PREFIX+"login";  
 	} 
+	  
+	//跳转登陆页面
+	  @RequestMapping(value="/index", method = RequestMethod.GET)  
+	   public String inde() {
+		 logger.info("跳转首页面");
+	     return "/index";  
+	} 
 	
 	   @RequestMapping(value="/register", method = RequestMethod.GET)  
 	   public String register() {

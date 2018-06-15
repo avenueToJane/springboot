@@ -3,6 +3,8 @@ package com.ys.admin.controller;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,22 +17,31 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.ys.api.model.User;
 import com.ys.api.service.UserService;
-//@RestController相当于@Controller+@ResponseBody(每一个方法上默认返回的是json串)
+/**
+ * 
+* <p>Title: LoginController </p>
+* <p>Description:登陆控制器 </p>
+* <p>Company: westlife</p> 
+* @author westlife
+* @date 2018年6月15日 下午3:30:28
+* @RestController相当于@Controller+@ResponseBody(每一个方法上默认返回的是json串)
+ */
 @Controller
-@RequestMapping("/")
 public class LoginController {
+	
+	private static Logger logger = Logger.getLogger(LoginController.class);
 	private String PREFIX = "/user/";
 	@Reference(version = "1.0.0")
 	private UserService userService;
 	
-	 //跳转登陆页面
-	  @RequestMapping(value="/")  
+	  //跳转登陆页面
+	  @RequestMapping(value="/", method = RequestMethod.GET)  
 	   public String index() {
-		System.out.println("------------------------------");
+		 logger.info("跳转登陆页面");
 	     return PREFIX+"login";  
 	} 
 	
-	   @RequestMapping(value="/register")  
+	   @RequestMapping(value="/register", method = RequestMethod.GET)  
 	   public String register() {
 		
 	     return PREFIX+"register";  
@@ -39,21 +50,21 @@ public class LoginController {
 	/**
 	 * 验证登陆操作是否成功
 	* @Title: login 
-	* @Description: TODO 
+	* @Description: TODO 6
 	* @return String
 	* @author ys
 	* @date 2018年6月13日下午3:44:12
 	 */
-	@RequestMapping(value="/login") 
+	@RequestMapping(value="/login", method = RequestMethod.POST) 
 	@ResponseBody
-	public Map<String, String> login(@RequestBody User user) {
+	public Map<String, Boolean> login(@RequestBody User user) {
+		logger.info("验证登陆操作是否成功"+user);
 		User u=userService.selectUser(user);
-		Map<String,String> map=new HashMap<>();
-		map.put("success", "true");
+		Map<String,Boolean> map=new HashMap<>();
+		map.put("success", true);
 		if(u==null) {
-			map.put("success", "false");
+			map.put("success", false);
 		}
-		
 	    return map;  
 	} 
     /**

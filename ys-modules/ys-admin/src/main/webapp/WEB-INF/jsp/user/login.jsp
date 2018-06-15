@@ -27,12 +27,11 @@
 			<div class="col-sm-5">
 				<form>
 					<h4 class="no-margins">登录：</h4>
-					
 					<input id="account" type="text" class="form-control uname" placeholder="用户名" />
 					<input id="password" type="password" class="form-control pword m-b"
 						placeholder="密码" /> <a href="">忘记密码了？</a>
 					<button class="btn btn-success btn-block" onclick="login()">登录</button>
-				</form>
+				</form>	
 			</div>
 			
 			<div class="col-sm-8"></div>

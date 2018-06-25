@@ -15,12 +15,24 @@
 	<name>ys-admin Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
-		<!--springboot热部署   加入该依赖，doubo就找不到服务，引发空指针-->
-		<!-- <dependency>
+		<!--在项目中加NekoHTML库实现html5标签的非严格检查 -->
+		<dependency>
+			<groupId>net.sourceforge.nekohtml</groupId>
+			<artifactId>nekohtml</artifactId>
+			<version>1.9.22</version>
+		</dependency>
+		<!--thymeleaf模板 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<!--springboot热部署 加入该依赖，doubo就找不到服务，引发空指针 -->
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
-		</dependency> -->
+		</dependency>
 		<!-- jsp ====================== -->
 
 		<dependency>

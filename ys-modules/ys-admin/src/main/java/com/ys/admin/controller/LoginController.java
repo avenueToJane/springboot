@@ -28,18 +28,19 @@ import com.ys.api.service.UserService;
  */
 @Controller
 public class LoginController {
+
 	
 	private static Logger logger = Logger.getLogger(LoginController.class);
 	private String PREFIX = "/user/";
 	@Reference(version = "1.0.0")
 	private UserService userService;
 	
-	  //跳转登陆页面
+	/*  //跳转登陆页面
 	  @RequestMapping(value="/", method = RequestMethod.GET)  
 	   public String index() {
 		 logger.info("跳转登陆页面");
 	     return PREFIX+"login";  
-	} 
+	} */
 	  
 	//跳转登陆页面
 	  @RequestMapping(value="/index", method = RequestMethod.GET)  

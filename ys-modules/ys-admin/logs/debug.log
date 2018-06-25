@@ -641,4 +641,323 @@
   2018-06-25-16-05 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page88
   2018-06-25-16-05 [http-nio-8080-exec-10] [com.ys.admin.controller.PageController] [INFO] - 表单page91
   2018-06-25-16-05 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page92
+  2018-06-25-16-07 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page01
+  2018-06-25-16-07 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page02
+  2018-06-25-16-07 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page03
+  2018-06-25-16-07 [http-nio-8080-exec-10] [com.ys.admin.controller.PageController] [INFO] - 表单page04
+  2018-06-25-16-08 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page05
+  2018-06-25-16-08 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page06
+  2018-06-25-16-08 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page07
+  2018-06-25-16-08 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page08
+  2018-06-25-16-09 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page11
+  2018-06-25-16-09 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page12
+  2018-06-25-16-09 [http-nio-8080-exec-4] [com.ys.admin.controller.PageController] [INFO] - 表单page13
+  2018-06-25-16-09 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page14
+  2018-06-25-16-09 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page15
+  2018-06-25-16-09 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page16
+  2018-06-25-16-09 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page17
+  2018-06-25-16-09 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page18
+  2018-06-25-16-09 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page18
+  2018-06-25-16-09 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Register: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=consumers&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914178107&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-09 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Subscribe: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914178107&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-09 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Notify urls for subscribe url consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914178107&version=1.0.0, urls: [dubbo://192.168.64.1:20880/com.ys.api.service.UserService?anyhost=true&application=provider&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9268&revision=1.0.0&side=provider&timestamp=1529910807830&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=configurators&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914178107&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914178107&version=1.0.0], dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-09 [restartedMain] [com.alibaba.dubbo.config.AbstractConfig] [INFO] -  [DUBBO] Refer dubbo service com.ys.api.service.UserService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=consumer&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914178107&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-09 [restartedMain] [com.alibaba.dubbo.common.logger.Logger] [ERROR] -  [DUBBO] Failed to init remote service reference at filed userService in class com.ys.admin.controller.LoginController, cause: interface com.ys.api.service.UserService is not visible from class loader, dubbo version: 2.5.5, current host: 192.168.64.1
+  java.lang.IllegalArgumentException: interface com.ys.api.service.UserService is not visible from class loader
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:95)
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:68)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory.getProxy(JavassistProxyFactory.java:35)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyFactory.getProxy(AbstractProxyFactory.java:49)
+	at com.alibaba.dubbo.rpc.proxy.wrapper.StubProxyFactoryWrapper.getProxy(StubProxyFactoryWrapper.java:60)
+	at com.alibaba.dubbo.rpc.ProxyFactory$Adpative.getProxy(ProxyFactory$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:413)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:320)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:159)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:297)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.ys.admin.ConsumerApplication.main(ConsumerApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-06-25-16-09 [restartedMain] [com.ys.admin.ConsumerApplication] [INFO] - SpringBoot Start Success
+  2018-06-25-16-09 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page18
+  2018-06-25-16-09 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page19
+  2018-06-25-16-10 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page20
+  2018-06-25-16-10 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page29
+  2018-06-25-16-10 [http-nio-8080-exec-10] [com.ys.admin.controller.PageController] [INFO] - 表单page30
+  2018-06-25-16-10 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page24
+  2018-06-25-16-10 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page81
+  2018-06-25-16-12 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Register: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=consumers&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914368027&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-12 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Subscribe: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914368027&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-12 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Notify urls for subscribe url consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914368027&version=1.0.0, urls: [dubbo://192.168.64.1:20880/com.ys.api.service.UserService?anyhost=true&application=provider&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9268&revision=1.0.0&side=provider&timestamp=1529910807830&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=configurators&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914368027&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914368027&version=1.0.0], dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-12 [restartedMain] [com.alibaba.dubbo.config.AbstractConfig] [INFO] -  [DUBBO] Refer dubbo service com.ys.api.service.UserService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=consumer&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914368027&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-12 [restartedMain] [com.alibaba.dubbo.common.logger.Logger] [ERROR] -  [DUBBO] Failed to init remote service reference at filed userService in class com.ys.admin.controller.LoginController, cause: interface com.ys.api.service.UserService is not visible from class loader, dubbo version: 2.5.5, current host: 192.168.64.1
+  java.lang.IllegalArgumentException: interface com.ys.api.service.UserService is not visible from class loader
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:95)
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:68)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory.getProxy(JavassistProxyFactory.java:35)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyFactory.getProxy(AbstractProxyFactory.java:49)
+	at com.alibaba.dubbo.rpc.proxy.wrapper.StubProxyFactoryWrapper.getProxy(StubProxyFactoryWrapper.java:60)
+	at com.alibaba.dubbo.rpc.ProxyFactory$Adpative.getProxy(ProxyFactory$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:413)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:320)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:159)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:297)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.ys.admin.ConsumerApplication.main(ConsumerApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-06-25-16-13 [restartedMain] [com.ys.admin.ConsumerApplication] [INFO] - SpringBoot Start Success
+  2018-06-25-16-13 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page10
+  2018-06-25-16-13 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page92
+  2018-06-25-16-13 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page91
+  2018-06-25-16-13 [http-nio-8080-exec-4] [com.ys.admin.controller.PageController] [INFO] - 表单page90
+  2018-06-25-16-13 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page89
+  2018-06-25-16-13 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page88
+  2018-06-25-16-13 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page87
+  2018-06-25-16-14 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Register: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=consumers&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914457717&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-14 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Subscribe: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914457717&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-14 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Notify urls for subscribe url consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914457717&version=1.0.0, urls: [dubbo://192.168.64.1:20880/com.ys.api.service.UserService?anyhost=true&application=provider&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9268&revision=1.0.0&side=provider&timestamp=1529910807830&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=configurators&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914457717&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914457717&version=1.0.0], dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-14 [restartedMain] [com.alibaba.dubbo.config.AbstractConfig] [INFO] -  [DUBBO] Refer dubbo service com.ys.api.service.UserService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=consumer&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914457717&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-14 [restartedMain] [com.alibaba.dubbo.common.logger.Logger] [ERROR] -  [DUBBO] Failed to init remote service reference at filed userService in class com.ys.admin.controller.LoginController, cause: interface com.ys.api.service.UserService is not visible from class loader, dubbo version: 2.5.5, current host: 192.168.64.1
+  java.lang.IllegalArgumentException: interface com.ys.api.service.UserService is not visible from class loader
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:95)
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:68)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory.getProxy(JavassistProxyFactory.java:35)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyFactory.getProxy(AbstractProxyFactory.java:49)
+	at com.alibaba.dubbo.rpc.proxy.wrapper.StubProxyFactoryWrapper.getProxy(StubProxyFactoryWrapper.java:60)
+	at com.alibaba.dubbo.rpc.ProxyFactory$Adpative.getProxy(ProxyFactory$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:413)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:320)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:159)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:297)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.ys.admin.ConsumerApplication.main(ConsumerApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-06-25-16-14 [restartedMain] [com.ys.admin.ConsumerApplication] [INFO] - SpringBoot Start Success
+  2018-06-25-16-15 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Register: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=consumers&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914504249&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-15 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Subscribe: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914504249&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-15 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Notify urls for subscribe url consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914504249&version=1.0.0, urls: [dubbo://192.168.64.1:20880/com.ys.api.service.UserService?anyhost=true&application=provider&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9268&revision=1.0.0&side=provider&timestamp=1529910807830&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=configurators&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914504249&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914504249&version=1.0.0], dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-15 [restartedMain] [com.alibaba.dubbo.config.AbstractConfig] [INFO] -  [DUBBO] Refer dubbo service com.ys.api.service.UserService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=consumer&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914504249&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-15 [restartedMain] [com.alibaba.dubbo.common.logger.Logger] [ERROR] -  [DUBBO] Failed to init remote service reference at filed userService in class com.ys.admin.controller.LoginController, cause: interface com.ys.api.service.UserService is not visible from class loader, dubbo version: 2.5.5, current host: 192.168.64.1
+  java.lang.IllegalArgumentException: interface com.ys.api.service.UserService is not visible from class loader
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:95)
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:68)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory.getProxy(JavassistProxyFactory.java:35)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyFactory.getProxy(AbstractProxyFactory.java:49)
+	at com.alibaba.dubbo.rpc.proxy.wrapper.StubProxyFactoryWrapper.getProxy(StubProxyFactoryWrapper.java:60)
+	at com.alibaba.dubbo.rpc.ProxyFactory$Adpative.getProxy(ProxyFactory$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:413)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:320)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:159)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:297)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.ys.admin.ConsumerApplication.main(ConsumerApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-06-25-16-15 [restartedMain] [com.ys.admin.ConsumerApplication] [INFO] - SpringBoot Start Success
+  2018-06-25-16-15 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page10
+  2018-06-25-16-15 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page89
+  2018-06-25-16-15 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page92
+  2018-06-25-16-15 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page91
+  2018-06-25-16-15 [http-nio-8080-exec-4] [com.ys.admin.controller.PageController] [INFO] - 表单page90
+  2018-06-25-16-15 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page88
+  2018-06-25-16-15 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page86
+  2018-06-25-16-15 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page85
+  2018-06-25-16-15 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page84
+  2018-06-25-16-15 [http-nio-8080-exec-4] [com.ys.admin.controller.PageController] [INFO] - 表单page83
+  2018-06-25-16-15 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page82
+  2018-06-25-16-15 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page81
+  2018-06-25-16-15 [http-nio-8080-exec-10] [com.ys.admin.controller.PageController] [INFO] - 表单page80
+  2018-06-25-16-15 [http-nio-8080-exec-10] [com.ys.admin.controller.PageController] [INFO] - 表单page79
+  2018-06-25-16-15 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page78
+  2018-06-25-16-15 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page77
+  2018-06-25-16-15 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page76
+  2018-06-25-16-15 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page75
+  2018-06-25-16-15 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page74
+  2018-06-25-16-15 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page73
+  2018-06-25-16-15 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page71
+  2018-06-25-16-15 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page41
+  2018-06-25-16-16 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page61
+  2018-06-25-16-16 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page62
+  2018-06-25-16-16 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page63
+  2018-06-25-16-16 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page64
+  2018-06-25-16-16 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Register: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=consumers&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914607182&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-16 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Subscribe: consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914607182&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-16 [restartedMain] [com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry] [INFO] -  [DUBBO] Notify urls for subscribe url consumer://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=providers,configurators,routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914607182&version=1.0.0, urls: [dubbo://192.168.64.1:20880/com.ys.api.service.UserService?anyhost=true&application=provider&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9268&revision=1.0.0&side=provider&timestamp=1529910807830&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=configurators&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914607182&version=1.0.0, empty://192.168.64.1/com.ys.api.service.UserService?application=consumer&category=routers&default.check=false&default.timeout=6000&dubbo=2.5.5&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914607182&version=1.0.0], dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-16 [restartedMain] [com.alibaba.dubbo.config.AbstractConfig] [INFO] -  [DUBBO] Refer dubbo service com.ys.api.service.UserService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=consumer&check=false&default.check=false&default.timeout=6000&dubbo=2.5.5&generic=false&interface=com.ys.api.service.UserService&methods=getUserForRedis,findUser,sayHello,getUser,selectUser,send&pid=9256&revision=1.0.0&side=consumer&timestamp=1529914607182&version=1.0.0, dubbo version: 2.5.5, current host: 192.168.64.1
+  2018-06-25-16-16 [restartedMain] [com.alibaba.dubbo.common.logger.Logger] [ERROR] -  [DUBBO] Failed to init remote service reference at filed userService in class com.ys.admin.controller.LoginController, cause: interface com.ys.api.service.UserService is not visible from class loader, dubbo version: 2.5.5, current host: 192.168.64.1
+  java.lang.IllegalArgumentException: interface com.ys.api.service.UserService is not visible from class loader
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:95)
+	at com.alibaba.dubbo.common.bytecode.Proxy.getProxy(Proxy.java:68)
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory.getProxy(JavassistProxyFactory.java:35)
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyFactory.getProxy(AbstractProxyFactory.java:49)
+	at com.alibaba.dubbo.rpc.proxy.wrapper.StubProxyFactoryWrapper.getProxy(StubProxyFactoryWrapper.java:60)
+	at com.alibaba.dubbo.rpc.ProxyFactory$Adpative.getProxy(ProxyFactory$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:413)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:320)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:159)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.refer(AnnotationBean.java:297)
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessBeforeInitialization(AnnotationBean.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.ys.admin.ConsumerApplication.main(ConsumerApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-06-25-16-16 [restartedMain] [com.ys.admin.ConsumerApplication] [INFO] - SpringBoot Start Success
+  2018-06-25-16-16 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page10
+  2018-06-25-16-17 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page65
+  2018-06-25-16-17 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page41
+  2018-06-25-16-17 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page62
+  2018-06-25-16-17 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page63
+  2018-06-25-16-17 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page64
+  2018-06-25-16-17 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page66
+  2018-06-25-16-17 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page67
+  2018-06-25-16-17 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page68
+  2018-06-25-16-17 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page69
+  2018-06-25-16-17 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page70
+  2018-06-25-16-17 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page51
+  2018-06-25-16-17 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page53
+  2018-06-25-16-17 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page57
+  2018-06-25-16-17 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page42
+  2018-06-25-16-17 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page55
+  2018-06-25-16-17 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page54
+  2018-06-25-16-17 [http-nio-8080-exec-4] [com.ys.admin.controller.PageController] [INFO] - 表单page58
+  2018-06-25-16-17 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page59
+  2018-06-25-16-17 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page60
+  2018-06-25-16-17 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page42
+  2018-06-25-16-17 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page43
+  2018-06-25-16-17 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page44
+  2018-06-25-16-17 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page45
+  2018-06-25-16-17 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page46
+  2018-06-25-16-17 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page48
+  2018-06-25-16-17 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page49
+  2018-06-25-16-17 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page50
+  2018-06-25-16-17 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page31
+  2018-06-25-16-17 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page32
+  2018-06-25-16-17 [http-nio-8080-exec-8] [com.ys.admin.controller.PageController] [INFO] - 表单page33
+  2018-06-25-16-17 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page34
+  2018-06-25-16-17 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page35
+  2018-06-25-16-17 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page40
+  2018-06-25-16-17 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page39
+  2018-06-25-16-17 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page38
+  2018-06-25-16-17 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page37
+  2018-06-25-16-17 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page36
+  2018-06-25-16-17 [http-nio-8080-exec-10] [com.ys.admin.controller.PageController] [INFO] - 表单page21
+  2018-06-25-16-17 [http-nio-8080-exec-4] [com.ys.admin.controller.PageController] [INFO] - 表单page22
+  2018-06-25-16-17 [http-nio-8080-exec-3] [com.ys.admin.controller.PageController] [INFO] - 表单page23
+  2018-06-25-16-17 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page25
+  2018-06-25-16-17 [http-nio-8080-exec-10] [com.ys.admin.controller.PageController] [INFO] - 表单page26
+  2018-06-25-16-17 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page27
+  2018-06-25-16-17 [http-nio-8080-exec-10] [com.ys.admin.controller.PageController] [INFO] - 表单page28
+  2018-06-25-16-17 [http-nio-8080-exec-4] [com.ys.admin.controller.PageController] [INFO] - 表单page29
+  2018-06-25-16-17 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page30
+  2018-06-25-16-17 [http-nio-8080-exec-6] [com.ys.admin.controller.PageController] [INFO] - 表单page11
+  2018-06-25-16-17 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page12
+  2018-06-25-16-17 [http-nio-8080-exec-4] [com.ys.admin.controller.PageController] [INFO] - 表单page13
+  2018-06-25-16-17 [http-nio-8080-exec-5] [com.ys.admin.controller.PageController] [INFO] - 表单page14
+  2018-06-25-16-17 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page15
+  2018-06-25-16-17 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page16
+  2018-06-25-16-17 [http-nio-8080-exec-2] [com.ys.admin.controller.PageController] [INFO] - 表单page17
+  2018-06-25-16-17 [http-nio-8080-exec-7] [com.ys.admin.controller.PageController] [INFO] - 表单page18
+  2018-06-25-16-17 [http-nio-8080-exec-9] [com.ys.admin.controller.PageController] [INFO] - 表单page19
+  2018-06-25-16-17 [http-nio-8080-exec-1] [com.ys.admin.controller.PageController] [INFO] - 表单page20
   
